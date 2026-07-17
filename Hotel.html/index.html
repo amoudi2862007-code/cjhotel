@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Hotel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🏨 Luxury Hotel</h1>
+    <p>Book Your Dream Stay</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Book Your Room</h2>
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<label>Check In</label>
+<input type="date" required>
+
+<label>Check Out</label>
+<input type="date" required>
+
+<select required>
+<option value="">Select Room</option>
+<option>Single Room</option>
+<option>Double Room</option>
+<option>Deluxe Room</option>
+<option>Suite</option>
+</select>
+
+<input type="number" placeholder="Guests" min="1" required>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
